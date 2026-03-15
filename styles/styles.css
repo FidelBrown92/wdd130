@@ -27,6 +27,7 @@ p {
 
 main {
     width: 600px;
+    max-width: 100%;
 
 }
 
@@ -48,6 +49,9 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    border: 1px;
+    padding: 1px;
+    box-shadow: black;
 }
 
 p {
@@ -55,7 +59,7 @@ p {
 }
 
 footer p {
-    margin: 15px;
-    border: 1px solid #000;
+    margin-top: 15px;
+    border-top: 1px solid #000;
     text-align: center;
 }
