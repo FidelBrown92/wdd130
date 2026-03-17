@@ -55,7 +55,11 @@ main img {
 }
 
 p {
-    padding: 0px;
+    padding: 0;
+}
+
+p {
+    padding: 0;
 }
 
 footer {
