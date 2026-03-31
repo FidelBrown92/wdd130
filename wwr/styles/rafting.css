@@ -37,6 +37,7 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+
 }
 
 .socialmedia a {
@@ -90,3 +91,14 @@ h2 {
 /* padding: 20px; */
 /* background-color: burlywood; */
 /* } */
+
+nav {
+    display: inline;
+    padding: 10px;
+    background-color: var(--accent2-color);
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    text-decoration: none;
+
+}
