@@ -108,3 +108,12 @@ nav {
     justify-content: center;
 
 }
+
+footer {
+    float: right;
+    resize: 100px;
+}
+
+header {
+    display: grid;
+}
