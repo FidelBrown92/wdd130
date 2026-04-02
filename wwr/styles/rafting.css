@@ -102,3 +102,9 @@ nav {
     text-decoration: none;
 
 }
+
+.adventure {
+    display: grid;
+    justify-content: center;
+
+}
