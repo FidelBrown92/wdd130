@@ -1,0 +1,193 @@
+:root {
+    --primary-color: #055a05;
+    --secondary-color: #f4a261;
+    --accent1-color: #264653;
+    --accent2-color: #e9c46a;
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article {
+    position: absolute;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent2-color);
+    color: white;
+
+}
+
+/* article { */
+/* position: absolute; */
+/* } */
+
+.hero article img {
+    float: right;
+    width: 125px;
+}
+
+h2 {
+    padding: 30px;
+    background-color: var(--secondary-color);
+    text-align: center;
+}
+
+/* nav a { */
+/* color: black; */
+/* display: block; */
+/* padding: 20px; */
+/* background-color: burlywood; */
+/* } */
+
+nav {
+    display: inline;
+    padding: 10px;
+    background-color: var(--accent2-color);
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    text-decoration: none;
+
+}
+
+.adventure {
+    display: grid;
+    justify-content: center;
+
+}
+
+footer {
+    float: right;
+    resize: 100px;
+}
+
+header {
+    display: grid;
+}
+
+.contact-info {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* MAP */
+.map iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    /* IMPORTANT: replaces inline style */
+}
+
+/* FORM */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+fieldset {
+    margin-bottom: 10px;
+}
+
+.checkbox {
+    margin: 10px 0;
+}
+
+/* BUTTON */
+.btn-submit {
+    background-color: #4a6fa5;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #3a5a87;
+}
+
+/* EMPLOYEES */
+.employees {
+    text-align: center;
+    padding: 20px;
+}
+
+.employee-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.employee-grid img {
+    width: 150px;
+    height: auto;
+}
+
+figure {
+    text-align: center;
+}
