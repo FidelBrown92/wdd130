@@ -232,3 +232,152 @@ footer .social img {
         gap: 10px;
     }
 }
+
+/* Final Project */
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: wheat;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.cta {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+
+.cta-button {
+    background-color: #0077cc;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 2rem;
+}
+
+.grid-item img {
+    width: 750px;
+    height: 350px;
+}
+
+.grid-item2 img {
+    width: 750px;
+    height: 350px;
+}
+
+.newsletter {
+    padding: 2rem;
+    background-color: #e0f7fa;
+    text-align: center;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+.newsletter input,
+.newsletter button {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+/* Final Project */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #004d66;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.trip {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.trip img {
+    width: 500px;
+    border-radius: 8px;
+}
+
+.sidebar {
+    background: #e6f7ff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.cta-button {
+    display: block;
+    background: #ff6600;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background: #cc5200;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ccc;
+}
+
+th {
+    background: #004d66;
+    color: white;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
